@@ -10,7 +10,7 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #c7cdd3;
+  background-image: linear-gradient(37deg, rgb(32, 218, 233),rgb(40, 21, 236));
 }
 
 #gameBoard{
@@ -24,7 +24,6 @@ body{
   width: 150px;
   height: 150px;
   position: relative;
-
   transform-style: preserve-3d;
   transition: transform .5s;
 }
@@ -53,6 +52,7 @@ body{
 .card-back{
   color: #101c2c;
   background-color: #05c3ff;
+  color: white;
   font-size: 30px;
 }
 
